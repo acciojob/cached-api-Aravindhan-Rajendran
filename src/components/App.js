@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from "react";
 import './../styles/App.css';
-
+import 'regenerator-runtime/runtime';
 const App = () => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
